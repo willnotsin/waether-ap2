@@ -10,15 +10,15 @@ const SearchWeather = () => {
   useEffect(() => {
     const fetchWeather = async () => {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid={fd6bb54ebcf029ed41b53be4246ad248}`
+        `https://api.openweathermap.org/data/2.5/weather?q={search}&appid={a4a1323db098bae06ae6914dac7ad18b}`
       );
-      if (componentMounted){
-        setData(await response.json())
+      if (componentMounted) {
+        setData(await response.json());
+        console.log(data);
       }
-      return () =>{
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-        componentMounted = false
-      }
+      return () => {
+        componentMounted = false;
+      };
     };
     fetchWeather();
   }, []);
@@ -54,7 +54,7 @@ const SearchWeather = () => {
                   </div>
                 </form>
                 <div className="bg-dark bg-opacity-50 py-4">
-                  <h2 class="card-title">Lagos</h2>
+                  <h2 class="card-title">{data.name}</h2>
                   <p class="card-text lead">Wednesday, September 14, 2022</p>
                   <hr />
                   <i className="fas fa-cloud-rain fa-5x mb-4"></i>
