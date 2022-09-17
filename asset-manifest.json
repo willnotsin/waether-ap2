@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/waether-ap2/static/css/main.4de0fa12.css",
-    "main.js": "/waether-ap2/static/js/main.b3210592.js",
+    "main.js": "/waether-ap2/static/js/main.a618cd32.js",
     "static/js/787.39e123ac.chunk.js": "/waether-ap2/static/js/787.39e123ac.chunk.js",
     "index.html": "/waether-ap2/index.html",
     "main.4de0fa12.css.map": "/waether-ap2/static/css/main.4de0fa12.css.map",
-    "main.b3210592.js.map": "/waether-ap2/static/js/main.b3210592.js.map",
+    "main.a618cd32.js.map": "/waether-ap2/static/js/main.a618cd32.js.map",
     "787.39e123ac.chunk.js.map": "/waether-ap2/static/js/787.39e123ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4de0fa12.css",
-    "static/js/main.b3210592.js"
+    "static/js/main.a618cd32.js"
   ]
 }
